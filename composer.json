@@ -1,9 +1,9 @@
 {
-    "name": "serwersms/serwersms-php-client",
-    "version": "1.0.2",
+    "name": "wendrowycz/serwersms-php-client",
+    "version": "1.0.3",
     "description": "SerwerSMS API PHP",
     "keywords": ["serwersms", "php", "api"],
-    "homepage": "http://github.com/SerwerSMSpl/serwersms-php-api-v2",
+    "homepage": "https://github.com/wendrowycz/serwersms-php-api-v2",
     "type": "library",
     "require": {
         "php": ">=5.3.0",
