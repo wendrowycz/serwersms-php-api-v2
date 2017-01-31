@@ -79,11 +79,15 @@ class Groups {
 	 * Deleting a group
 	 * 
 	 * @param int $id
+	 * @param boolean $delete_contacts
 	 * @return array
 	 *      @option bool "success"
 	 */
-	public function delete($id) {
+	public function delete($id, $delete_contacts = null) {
 		$params = array('id' => $id);
+		if($delete_contacts) {
+			$params['delete_contacts'] = true;
+		}
 		return $this->master->call('groups/delete', $params);
 	}
 
